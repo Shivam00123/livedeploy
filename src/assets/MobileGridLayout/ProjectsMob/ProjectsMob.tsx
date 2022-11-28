@@ -19,7 +19,7 @@ const ProjectThumbnail: React.FC<Props> = ({ id, children }) => {
   );
 };
 
-const ProjectsMob = ({ expandElement, expandedElement }) => {
+const ProjectsMob = (expandElement: any, expandedElement: any) => {
   const [data, setData] = useState<{ [key: string]: any }>({});
   const { getProjectData, useProjectDataState } = useProjectdata();
   const { searchFromArray } = useSearchElement();
