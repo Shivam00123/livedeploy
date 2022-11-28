@@ -20,7 +20,11 @@ const ProjectCards: React.FC<Props> = ({ id, children }) => {
   );
 };
 
-const Projects = (expandedElement: any) => {
+interface prop {
+  expandedElement?: any;
+}
+
+const Projects: React.FC<prop> = ({ expandedElement }) => {
   const [data, setData] = useState<{ [key: string]: any }>({});
   const { searchFromArray } = useSearchElement();
   const { getProjectData, useProjectDataState } = useProjectdata();
