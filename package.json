@@ -11,7 +11,7 @@
   "dependencies": {
     "@emailjs/browser": "^3.10.0",
     "@hookstate/core": "^4.0.0-rc21",
-    "framer-motion": "^7.6.12",
+    "framer-motion": "^4.1.17",
     "localtunnel": "^2.0.2",
     "react": "^17.0.2",
     "react-device-detect": "^2.2.2",
