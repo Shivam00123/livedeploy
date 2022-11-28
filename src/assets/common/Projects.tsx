@@ -20,7 +20,7 @@ const ProjectCards: React.FC<Props> = ({ id, children }) => {
   );
 };
 
-const Projects = ({ expandedElement }) => {
+const Projects = (expandedElement: any) => {
   const [data, setData] = useState<{ [key: string]: any }>({});
   const { searchFromArray } = useSearchElement();
   const { getProjectData, useProjectDataState } = useProjectdata();
